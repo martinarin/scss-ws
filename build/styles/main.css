@@ -1,3 +1,20 @@
+.variables .red h3 {
+  color: #bf3232; }
+.variables .red span {
+  background: #bf3232; }
+.variables .green h3 {
+  color: #5cb85c; }
+.variables .green span {
+  background: #5cb85c; }
+.variables .yellow h3 {
+  color: #f0ad4e; }
+.variables .yellow span {
+  background: #f0ad4e; }
+.variables .blue h3 {
+  color: #2e6da4; }
+.variables .blue span {
+  background: #2e6da4; }
+
 .imports .list-group-item {
   color: #ffffff; }
 
@@ -23,25 +40,21 @@
 
 .mixins .col-md-12 {
   margin: 0 0 20px 0; }
-.mixins .alert, .mixins button, .mixins .progress {
+.mixins .alert, .mixins .inheritance .alert-success, .inheritance .mixins .alert-success, .mixins .inheritance .alert-info, .inheritance .mixins .alert-info, .mixins .inheritance .alert-warning, .inheritance .mixins .alert-warning, .mixins .inheritance .alert-danger, .inheritance .mixins .alert-danger, .mixins button, .mixins .progress {
   -webkit-box-shadow: -4px 9px 7px -5px #7a7a7a;
   -moz-box-shadow: -4px 9px 7px -5px #7a7a7a;
   box-shadow: -4px 9px 7px -5px #7a7a7a; }
 
-.inheritance .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {
+.inheritance .alert, .inheritance .alert-success, .inheritance .alert-info, .inheritance .alert-warning, .inheritance .alert-danger {
   text-align: center;
   font-weight: bold;
   color: #ffffff; }
-
 .inheritance .alert-success {
   background: #5cb85c; }
-
 .inheritance .alert-info {
   background: #2e6da4; }
-
 .inheritance .alert-warning {
   background: #f0ad4e; }
-
 .inheritance .alert-danger {
   background: #bf3232; }
 

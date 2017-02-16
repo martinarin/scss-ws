@@ -1,8 +1,8 @@
-$green: #5cb85c;
-$red: #bf3232;
-$yellow: #f0ad4e;
-$blue: #2e6da4;
-$white: #ffffff;
+@import 'variables';
+@import 'import';
+@import 'nesting';
+@import 'mixins';
+@import 'inheritance';
 
 body {
   padding-top: 70px;
@@ -13,99 +13,3 @@ body {
     text-align: center;
 }
 
-.variables .red h3{
-  color: $red;
-}
-
-.variables .red span{
-  background: $red;
-}
-
-.variables .green h3{
-  color: $green;
-}
-
-.variables .green span{
-  background: $green;
-}
-
-.variables .yellow h3{
-  color: $yellow;
-}
-
-.variables .yellow span{
-  background: $yellow;
-}
-
-.variables .blue h3{
-  color: $blue;
-}
-
-.variables .blue span{
-  background: $blue;
-}
-
-.imports .list-group-item {
-  color: $white;
-}
-
-.imports .list-group-item.list-group-item-success {
-  background: $green;
-}
-
-.imports .list-group-item.list-group-item-info {
-  background: $blue;
-}
-
-.imports .list-group-item.list-group-item-warning {
-  background: $yellow;
-}
-
-.imports .list-group-item.list-group-item-danger {
-  background: $red;
-}
-
-.nesting .panel.panel-default .panel-heading {
-  color: $white;
-  background: $green;
-}
-
-.nesting .panel.panel-default .panel-body .panel.panel-default .panel-heading {
-  background: $blue;
-}
-
-.nesting .panel.panel-default .panel-body .panel.panel-default .panel-body .panel.panel-default .panel-heading {
-  background: $red;
-}
-
-.mixins .col-md-12 {
-  margin: 0 0 20px 0;
-}
-
-.mixins .alert, .mixins button, .mixins .progress {
-  -webkit-box-shadow: -4px 9px 7px -5px rgba(122,122,122,1);
-  -moz-box-shadow: -4px 9px 7px -5px rgba(122,122,122,1);
-  box-shadow: -4px 9px 7px -5px rgba(122,122,122,1);
-}
-
-.inheritance .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {
-  text-align: center;
-  font-weight: bold;
-  color: $white;
-}
-
-.inheritance .alert-success {
-  background: $green;
-}
-
-.inheritance .alert-info {
-  background: $blue;
-}
-
-.inheritance .alert-warning {
-  background: $yellow;
-}
-
-.inheritance .alert-danger {
-  background: $red;
-}

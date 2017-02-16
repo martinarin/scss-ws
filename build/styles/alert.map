@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../src/styles/alert.css",
+	"sources": [
+		"../../src/styles/alert.scss"
+	],
+	"sourcesContent": [
+		"#alert {\n  background-color: yellow;\n}\n"
+	],
+	"mappings": ";AAAA,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,MAAO;CAC1B",
+	"names": []
+}

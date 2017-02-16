@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../build/styles/main.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">Super CSS</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Variables</a></li>
+            <li><a href="import.html">Import</a></li>
+            <li><a href="nesting.html">Nesting</a></li>
+            <li><a href="mixins.html">Mixins</a></li>
+            <li class="active"><a href="#">Inheritance</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container inheritance">
+      <div class="jumbotron">
+        <h1>Inheritance!</h1>
+        <a href="http://sass-lang.com/guide#topic-7">This is one of the most useful features of Sass. Using @extend lets you share a set of CSS properties from one selector to another.</a>
+      </div>
+      <div class="col-md-12">
+        <div class="alert alert-success" role="alert">Success!</div>
+      </div>
+      <div class="col-md-12">
+        <div class="alert alert-info" role="alert">Info!</div>
+      </div>
+      <div class="col-md-12">
+        <div class="alert alert-warning" role="alert">Warning!</div>
+      </div>
+      <div class="col-md-12">
+        <div class="alert alert-danger" role="alert">D'Oh!</div>
+      </div>
+    </div>
+  </body>
+</html>

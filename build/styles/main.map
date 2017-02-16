@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../src/styles/main.css",
+	"sources": [
+		"../../src/styles/main.scss"
+	],
+	"sourcesContent": [
+		"#main {\n  background: red;\n\n  a {\n    color: blue;\n  }\n}\n"
+	],
+	"mappings": ";AAAA,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,GAAI;CAKjB;;;AAND,AAGE,KAHG,CAGH,CAAC,CAAC;EACA,KAAK,EAAE,IAAK;CACb",
+	"names": []
+}

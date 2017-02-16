@@ -45,7 +45,7 @@ body {
   background: #bf3232; }
 
 .nesting .panel.panel-default .panel-heading {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #5cb85c; }
 
 .nesting .panel.panel-default .panel-body .panel.panel-default .panel-heading {
@@ -65,7 +65,7 @@ body {
 .inheritance .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {
   text-align: center;
   font-weight: bold;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .inheritance .alert-success {
   background: #5cb85c; }

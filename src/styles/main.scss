@@ -1,3 +1,9 @@
+$green: #5cb85c;
+$red: #bf3232;
+$yellow: #f0ad4e;
+$blue: #2e6da4;
+$white: #ffffff;
+
 body {
   padding-top: 70px;
 }
@@ -8,68 +14,68 @@ body {
 }
 
 .variables .red h3{
-  color: #bf3232;
+  color: $red;
 }
 
 .variables .red span{
-  background: #bf3232;
+  background: $red;
 }
 
 .variables .green h3{
-  color: #5cb85c;
+  color: $green;
 }
 
 .variables .green span{
-  background: #5cb85c;
+  background: $green;
 }
 
 .variables .yellow h3{
-  color: #f0ad4e;
+  color: $yellow;
 }
 
 .variables .yellow span{
-  background: #f0ad4e;
+  background: $yellow;
 }
 
 .variables .blue h3{
-  color: #2e6da4;
+  color: $blue;
 }
 
 .variables .blue span{
-  background: #2e6da4;
+  background: $blue;
 }
 
 .imports .list-group-item {
-  color: #ffffff;
+  color: $white;
 }
 
 .imports .list-group-item.list-group-item-success {
-  background: #5cb85c;
+  background: $green;
 }
 
 .imports .list-group-item.list-group-item-info {
-  background: #2e6da4;
+  background: $blue;
 }
 
 .imports .list-group-item.list-group-item-warning {
-  background: #f0ad4e;
+  background: $yellow;
 }
 
 .imports .list-group-item.list-group-item-danger {
-  background: #bf3232;
+  background: $red;
 }
 
 .nesting .panel.panel-default .panel-heading {
-  color: #FFFFFF;
-  background: #5cb85c;
+  color: $white;
+  background: $green;
 }
 
 .nesting .panel.panel-default .panel-body .panel.panel-default .panel-heading {
-  background: #2e6da4;
+  background: $blue;
 }
 
 .nesting .panel.panel-default .panel-body .panel.panel-default .panel-body .panel.panel-default .panel-heading {
-  background: #bf3232;
+  background: $red;
 }
 
 .mixins .col-md-12 {
@@ -85,21 +91,21 @@ body {
 .inheritance .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {
   text-align: center;
   font-weight: bold;
-  color: #FFFFFF;
+  color: $white;
 }
 
 .inheritance .alert-success {
-  background: #5cb85c;
+  background: $green;
 }
 
 .inheritance .alert-info {
-  background: #2e6da4;
+  background: $blue;
 }
 
 .inheritance .alert-warning {
-  background: #f0ad4e;
+  background: $yellow;
 }
 
 .inheritance .alert-danger {
-  background: #bf3232;
+  background: $red;
 }

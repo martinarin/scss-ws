@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGC,mIAAO;EACL,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,KAAK,ECFA,OAAO;ADKd,2BAAe;EAEZ,UAAU,ECXN,OAAO;ADcd,wBAAY;EAET,UAAU,ECbP,OAAO;ADgBb,2BAAe;EAEZ,UAAU,ECnBL,OAAO;ADsBf,0BAAc;EAEX,UAAU,ECzBR,OAAO",
+"sources": ["../../src/styles/inheritance.scss","../../src/styles/variables.scss"],
+"names": [],
+"file": "inheritance.css"
+}

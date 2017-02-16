@@ -1,0 +1,21 @@
+$green: #5cb85c;
+$red: #bf3232;
+$yellow: #f0ad4e;
+$blue: #2e6da4;
+$white: #ffffff;
+
+@mixin shadow($color) {
+	  -webkit-box-shadow: -4px 9px 7px -5px $color;
+	  -moz-box-shadow: -4px 9px 7px -5px $color;
+	  box-shadow: -4px 9px 7px -5px $color;
+}
+
+@mixin foo($color){
+		h3 {
+		  color: $color;
+		}
+
+		span {
+		  background: $color;
+		}
+}

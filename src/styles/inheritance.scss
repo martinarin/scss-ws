@@ -1,0 +1,29 @@
+@import 'variables';
+
+.inheritance {
+	.alert {
+	  text-align: center;
+	  font-weight: bold;
+	  color: $white;
+	}
+	
+	.alert-success {
+		@extend .alert;
+	  	background: $green;
+	}
+
+	.alert-info {
+		@extend .alert;
+	  	background: $blue;
+	}
+
+	.alert-warning {
+		@extend .alert;
+	  	background: $yellow;
+	}
+
+	.alert-danger {
+		@extend .alert;
+	  	background: $red;
+	}
+}

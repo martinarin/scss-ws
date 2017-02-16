@@ -1,0 +1,14 @@
+.inheritance .alert, .inheritance .alert-success, .inheritance .alert-info, .inheritance .alert-warning, .inheritance .alert-danger {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff; }
+.inheritance .alert-success {
+  background: #5cb85c; }
+.inheritance .alert-info {
+  background: #2e6da4; }
+.inheritance .alert-warning {
+  background: #f0ad4e; }
+.inheritance .alert-danger {
+  background: #bf3232; }
+
+/*# sourceMappingURL=inheritance.css.map */

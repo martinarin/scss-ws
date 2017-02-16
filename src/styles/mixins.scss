@@ -1,0 +1,12 @@
+@import 'variables';
+
+.mixins {
+	.col-md-12 {
+	  margin: 0 0 20px 0;
+	}
+	
+	.alert, button, .progress {
+	  @include shadow (rgba(122,122,122,1));
+	}
+}
+
